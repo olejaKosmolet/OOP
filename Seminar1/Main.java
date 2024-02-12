@@ -84,12 +84,11 @@ public class Main {
         Peasant peasant = new Peasant(0, "Shon", 0, 0, null, 0, 0);
         Spearman spearman = new Spearman(0, "Denis", 0, 0, null, 0, 0);
 
-        System.out.println(sniper);
-        System.out.println(crossbowman);
-        System.out.println(magic);
-        System.out.println(peasant);
-        System.out.println(spearman);
-
+        System.out.println(sniper.getInfo());
+        System.out.println(crossbowman.getInfo());
+        System.out.println(magic.getInfo());
+        System.out.println(peasant.getInfo());
+        System.out.println(spearman.getInfo());
 
     }
 }

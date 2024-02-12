@@ -14,5 +14,10 @@ public class Crossbowman extends Pers{
     public String toString() {
         return String.format("%s, %s, ", getClass(), name);
     }
+
+    @Override
+    protected void print() {
+        super.print();
+    }
     
 }

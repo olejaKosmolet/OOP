@@ -23,6 +23,12 @@ abstract class Pers {
         this.stamina = stamina;
         this.weapon = weapon;
     }
+
+    protected String getInfo() {
+        return String.format("Name: %s  Hp: %d  Type: %s",
+                this.name, this.health, this.getClass().getSimpleName());
+    }
+
     
     protected void print() {
         System.out.println("ID :" + id + " Name: " + name + " Health: " + health + " Weapon: " + weapon + " Stamina: " + stamina);
