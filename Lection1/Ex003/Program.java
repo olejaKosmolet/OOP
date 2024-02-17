@@ -1,4 +1,4 @@
-package Lesson_07.Ex003;
+package ООП.Lection1.Ex003;
 
 public class Program {
 
